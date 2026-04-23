@@ -1,3 +1,5 @@
+let div = document.querySelector('.perfil')
+
 document.querySelector('.busca').addEventListener('submit', async (event) => { // formulario de busca
     event.preventDefault()
 
@@ -6,14 +8,11 @@ document.querySelector('.busca').addEventListener('submit', async (event) => { /
 
         let response = await fetch(`https://api.github.com/users/${encodeURI(searchInput)}`, { // RESPOSTA da API 
             headers: {
-                'Authorization': `${token}`
+                'Authorization': `Bearer ${token}`
             }
         })
-        let json = await response.json()// conversão em obj/json
-
-
-        // Exibir avatar com bio e nome do perfil buscado
-
+        let perfil = await response.json()// conversão em obj/json
+        console.log(perfil);     
         
 
         // pegando erro caso acontecer
