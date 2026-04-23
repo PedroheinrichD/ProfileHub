@@ -31,7 +31,7 @@ header .right {
     font-size: 13px;
 }
 .link_projeto a{
-    color: #6F7986;
+    color: #a8a8a8;
     text-decoration: none;
 }
 .link_projeto{
@@ -48,12 +48,13 @@ header .right {
 }
 
 #moon_icon {
-    height: 26px;
-    fill: #6F7986;
+    rotate: calc(-32deg);
+    height: 20px;
+    fill: #a8a8a8;
 }
 
 #exclamation_Icon{
-    fill: #6F7986;
+    fill: #a8a8a8;
     height: 13px;
     margin: none;
 }
