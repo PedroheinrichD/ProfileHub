@@ -31,11 +31,13 @@ header .right {
     align-items: center;
     font-size: 13px;
 }
-.link_projeto a{
+
+.link_projeto a {
     color: #a8a8a8;
     text-decoration: none;
 }
-.link_projeto{
+
+.link_projeto {
     display: flex;
     align-items: center;
 }
@@ -54,9 +56,10 @@ header .right {
     fill: #a8a8a8;
 }
 
-#exclamation_Icon{
+#exclamation_Icon {
     fill: #a8a8a8;
     height: 13px;
     margin: none;
 }
+
 
