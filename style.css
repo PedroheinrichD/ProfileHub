@@ -155,3 +155,28 @@ form button {
     height: 20px;
     fill: #fff;
 }
+
+
+#historico {
+    max-width: 340px;
+    width: 100%;
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #171E29;
+    border-radius: 15px;
+    border: 2px solid #1D2631;
+}
+
+#historico h3 {
+}
+
+
+#lista_Recentes {
+    padding: 0px;
+    list-style: none;
+}
+
+#lista_Recentes li {
+    width: 100%;
+    border-bottom: 2px solid #1D2631;
+}
