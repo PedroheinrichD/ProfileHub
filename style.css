@@ -71,6 +71,12 @@ main {
     display: flex;
 }
 
+#Section_Left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .buscarPerfil {
     max-width: 340px;
     width: 100%;
@@ -84,6 +90,7 @@ main {
 .buscarPerfil h3 {
     margin: 0px 0px 26px 0px;
 }
+
 .buscarPerfil h2 {
     margin: 0px 0px 20px 0px;
 }
