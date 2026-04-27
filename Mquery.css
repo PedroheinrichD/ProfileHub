@@ -1,61 +1,50 @@
-@media (max-width: 604px) {
-
-    /*__________________HEADER__________________*/
-
-    header {
-        gap: 20px;
-        min-width: 320px;
-        flex-shrink: 0;
-    }
-
-    header .left {
-        gap: 10px;
-        font-size: 8px;
-    }
-
-
-    header .right {
-        gap: 10px;
-        font-size: 11px;
-    }
-
+@media (max-width: 1034px) {
 
     /*__________________BuscarPerfil/Main_________________*/
     .buscarPerfil {
-        max-width: 80vw;
-        min-width: 320px;
+        max-width: 88vw;
         padding: 20px;
     }
 
     form input {
-        width: 65%;
-        margin-right: 6px;
-        height: 38px;
-        padding-left: 15px;
-        color: #fff;
-        background-color: #101620;
-        border: 2px solid #1D2631;
-        border-radius: 7px;
+        width: 75%;
     }
 
-    form button {
-        background-color: #5C5FE2;
-        color: #fff;
-        height: 40px;
-        width: 70px;
-        border: none;
-        border-radius: 7px;
+    #historico {
+        display: none;
+    }
+
+    main {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    #Section_Left {
+        display: flex;
     }
 }
 
-@media (max-width: 400px) {
-    /*__________________HEADER__________________*/
+@media (max-width: 570PX) {
+    .perfil {
+        flex-wrap: wrap;
+    }
 
+    #img_Perfil {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 460px) {
+
+    /*__________________HEADER__________________*/
     header {
         gap: 20px;
-        width: 360px;
-        min-width: 320px;
-        flex-shrink: 0;
+    }
+
+    header a {
+        width: 40px;
     }
 
     header .left {
@@ -67,5 +56,21 @@
     header .right {
         gap: 10px;
         font-size: 11px;
+    }
+
+    /*__________________BuscarPerfil/Main_________________*/
+    form input {
+        width: 55%;
+    }
+
+    .dica {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .buscarPerfil {
+        max-width: 78vw;
+        padding: 20px;
     }
 }
