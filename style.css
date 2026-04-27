@@ -186,3 +186,75 @@ form button {
     width: 100%;
     border-bottom: 2px solid #1D2631;
 }
+
+
+/*__________________PERFIL_________________*/
+
+
+#title_Perfil {
+    color: #fff;
+}
+
+.perfil {
+    padding: 20px;
+    width: 56vw;
+    color: #fff;
+    background-color: #171E29;
+    border-radius: 15px;
+    border: 2px solid #1D2631;
+    gap: 30px;
+    display: flex;
+}
+
+
+#Name_Perfil {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+#User_Perfil {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+#Bio_Perfil {
+    font-size: 12px;
+    font-weight: 300;
+    color: #CBCFDA;
+}
+
+#img_Perfil img {
+    border-radius: 135px;
+    height: 200px;
+}
+
+.icon_Perfil {
+    fill: #a8a8a8;
+    height: 16px;
+}
+
+.follower_Container {
+    gap: 16px;
+    display: flex;
+}
+
+.seguidores,
+.seguindo {
+    color: #a8a8a8;
+    font-weight: 400;
+    gap: 5px;
+    align-items: center;
+    display: flex;
+}
+
+
+#link_perfil {
+    color: #727EE7;
+    text-decoration: none;
+}
+
+.valor_seguidores{
+    color: #fff;
+}
