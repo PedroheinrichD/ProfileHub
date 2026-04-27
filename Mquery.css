@@ -1,0 +1,71 @@
+@media (max-width: 604px) {
+
+    /*__________________HEADER__________________*/
+
+    header {
+        gap: 20px;
+        min-width: 320px;
+        flex-shrink: 0;
+    }
+
+    header .left {
+        gap: 10px;
+        font-size: 8px;
+    }
+
+
+    header .right {
+        gap: 10px;
+        font-size: 11px;
+    }
+
+
+    /*__________________BuscarPerfil/Main_________________*/
+    .buscarPerfil {
+        max-width: 80vw;
+        min-width: 320px;
+        padding: 20px;
+    }
+
+    form input {
+        width: 65%;
+        margin-right: 6px;
+        height: 38px;
+        padding-left: 15px;
+        color: #fff;
+        background-color: #101620;
+        border: 2px solid #1D2631;
+        border-radius: 7px;
+    }
+
+    form button {
+        background-color: #5C5FE2;
+        color: #fff;
+        height: 40px;
+        width: 70px;
+        border: none;
+        border-radius: 7px;
+    }
+}
+
+@media (max-width: 400px) {
+    /*__________________HEADER__________________*/
+
+    header {
+        gap: 20px;
+        width: 360px;
+        min-width: 320px;
+        flex-shrink: 0;
+    }
+
+    header .left {
+        gap: 10px;
+        font-size: 8px;
+    }
+
+
+    header .right {
+        gap: 10px;
+        font-size: 11px;
+    }
+}
