@@ -12,6 +12,10 @@ html {
     border: 1px solid #1D2631;
 }
 
+.mobileICon{
+    display: none;
+}
+
 
 /*__________________HEADER__________________*/
 header {
