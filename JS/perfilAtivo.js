@@ -49,6 +49,18 @@ async function perfilAtivo() {
         bio_Perfil.append(bio) // adicionando bio 
         valor_seguidores.append(seguidores) // adicionando total de seguidores 
         valor_seguindo.append(seguindo) // adicionando total de quantos o perfil está seguindo
+
+        // exibindo dados nas caixas de informação
+        box_Rep_Publico.innerHTML = ''
+        box_Gists_Publico.innerHTML = ''
+        box_Seg_Publico.innerHTML = ''
+        box_Seguin_Publico.innerHTML = ''
+
+        box_Rep_Publico.innerHTML = perfil.public_repos
+        box_Gists_Publico.innerHTML = perfil.public_gists
+        box_Seg_Publico.innerHTML = perfil.followers
+        box_Seguin_Publico.innerHTML = perfil.following
+
         // pegando erro caso acontecer
     } catch (error) {
         console.log(`Erro cabuloso: ${error}`);

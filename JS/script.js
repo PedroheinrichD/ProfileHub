@@ -8,6 +8,14 @@ let valor_seguindo = document.querySelector('.valor_seguindo')
 let link_perfil = document.querySelector('#link_perfil')
 
 
+// Valores das boxes
+let box_Rep_Publico = document.querySelector('.valor_Rep_Publico')
+let box_Gists_Publico = document.querySelector('.valor_Gists_Publico')
+let box_Seg_Publico = document.querySelector('.valor_Seg_Publico')
+let box_Seguin_Publico = document.querySelector('.valor_Seguin_Publico')
+
+
+
 
 function exibir(perfil) {
 
@@ -38,13 +46,10 @@ function exibir(perfil) {
     let seguindo = document.createElement('p')// criando elemento com bio 
     seguindo.innerText = perfil.following
 
-
     // adicionando link de perfil pesquisado
     link_perfil.href = perfil.html_url
     link_perfil.textContent = perfil.html_url
     link_perfil.target = '_blank'
-
-
 
     img_Perfil.append(avatar) // adicionando foto de perfil
     name_Perfil.append(nome) // adicionando nome do perfil
@@ -55,7 +60,22 @@ function exibir(perfil) {
 
 
 
-    // proximo passo é exibir valor total de repositórios, 
+    // exibindo dados nas caixas de informação
+    box_Rep_Publico.innerHTML = ''
+    box_Gists_Publico.innerHTML = ''
+    box_Seg_Publico.innerHTML = ''
+    box_Seguin_Publico.innerHTML = ''
+
+    box_Rep_Publico.innerHTML = perfil.public_repos
+    box_Gists_Publico.innerHTML = perfil.public_gists
+    box_Seg_Publico.innerHTML = perfil.followers
+    box_Seguin_Publico.innerHTML = perfil.following
+
+
+}
+
+function exibirRepositorios(repos) {
+    // exibir total de repósitorios no site
 }
 
 
