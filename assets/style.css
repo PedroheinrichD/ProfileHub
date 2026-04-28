@@ -193,6 +193,7 @@ form button {
 
 
 #title_Perfil {
+    margin-top: 0px;
     color: #fff;
 }
 
@@ -256,6 +257,6 @@ form button {
     text-decoration: none;
 }
 
-.valor_seguidores{
+.valor_seguidores {
     color: #fff;
 }
