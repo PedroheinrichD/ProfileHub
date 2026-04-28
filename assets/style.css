@@ -260,3 +260,70 @@ form button {
 .valor_seguidores {
     color: #fff;
 }
+
+/*__________________boxes Com Dados_________________*/
+
+.boxesInformation {
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #171E29;
+    border-radius: 15px;
+}
+
+.box2{
+    gap: 8px;
+}
+
+
+.information_text {
+    margin: 0px;
+    width: 90px;
+    color: #8d8d8d;
+}
+
+.box1 .information .information_text{
+    margin-top: 5px;
+}
+
+.information {
+    font-size: 13px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_Boxs {
+    height: 26px;
+}
+
+.cubeColor {
+    fill: #6B7179;
+}
+
+.codeColor {
+    fill: #3E9A52;
+}
+
+.seguidoresColor {
+    fill: #349EEC;
+}
+
+.seguindoColor {
+    fill: #4E3A8D;
+}
+
+
+.valores {
+    font-size: 18px;
+    margin: 0px;
+    color: #fff;
+}
