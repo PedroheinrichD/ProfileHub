@@ -16,6 +16,13 @@ let box_Seguin_Publico = document.querySelector('.valor_Seguin_Publico')
 
 
 
+// repositorios 
+let repos_Name = document.querySelector('#repos_Name')
+let linguagem = document.querySelector('.linguagem')
+let text_repos = document.querySelector('.text_repos')
+
+
+
 
 function exibir(perfil) {
 

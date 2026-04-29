@@ -61,6 +61,19 @@ async function perfilAtivo() {
         box_Seg_Publico.innerHTML = perfil.followers
         box_Seguin_Publico.innerHTML = perfil.following
 
+
+
+        // exibindo repositorios principais
+        repos_Name.href = repos[0].html_url
+        repos_Name.textContent = repos[0].name
+        repos_Name.target = '_blank'
+
+        linguagem.innerHTML = repos[0].language
+        text_repos.innerHTML = repos[0].stargazers_count 
+
+        // fazer iteração para percorrer o array com os repositorios principais 
+
+
         // pegando erro caso acontecer
     } catch (error) {
         console.log(`Erro cabuloso: ${error}`);
