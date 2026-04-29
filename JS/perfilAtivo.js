@@ -2,7 +2,7 @@
 // exibindo um perfil quando entrar no site 
 async function perfilAtivo() {
     try {
-        let responseRepos = await fetch(`https://api.github.com/users/PedroHeinrichD/repos`, {})
+        let responseRepos = await fetch(`https://api.github.com/users/PedroHeinrichD/starred`, {}) // repositórios principais
         let responsePerfil = await fetch(`https://api.github.com/users/PedroHeinrichD`, { // RESPOSTA da API 
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -66,4 +66,4 @@ async function perfilAtivo() {
         console.log(`Erro cabuloso: ${error}`);
     }
 }
-perfilAtivo() 
+perfilAtivo()
