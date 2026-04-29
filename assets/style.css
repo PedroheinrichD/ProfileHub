@@ -331,3 +331,64 @@ form button {
     margin: 0px;
     color: #fff;
 }
+
+
+
+
+/*__________________informações do repositorios_________________*/
+
+#repos_Principais{
+    padding: 20px;
+    background-color: #171E29;
+    border-radius: 15px;
+    border: 2px solid #1D2631;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#repos_Principais h3{
+    margin: 0px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.repos{
+    color: #6B7179;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repos a{
+    text-decoration: none;
+    color: #5C5FE2;
+    font-size: 17px;
+}
+
+.repos_Information{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.information_stars{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name_Repos_Container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon_repos{
+    fill: #6B7179;
+    height: 24px;
+}
+
+.icon_Star{
+    fill: #6B7179;
+    height: 18px;
+}
