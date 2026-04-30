@@ -196,6 +196,7 @@ form button {
 /*__________________PERFIL_________________*/
 
 
+
 #title_Perfil {
     margin-top: 0px;
     color: #fff;
@@ -208,6 +209,7 @@ form button {
     border-radius: 15px;
     border: 2px solid #1D2631;
     gap: 30px;
+    margin-left: -8px;
     display: flex;
 }
 
@@ -268,6 +270,7 @@ form button {
 /*__________________boxes Com Dados_________________*/
 
 .boxesInformation {
+    margin-left: -8px;
     padding: 20px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -338,6 +341,7 @@ form button {
 /*__________________informações do repositorios_________________*/
 
 #repos_Principais{
+    margin-left: -8px;
     padding: 20px;
     background-color: #171E29;
     border-radius: 15px;

@@ -2,7 +2,7 @@
 
     /*__________________BuscarPerfil/Main_________________*/
     .buscarPerfil {
-        max-width: 88vw;
+        max-width: 84vw;
         padding: 20px;
     }
 
@@ -189,6 +189,19 @@
 
 
 @media (max-width: 380PX) {
+    #repos_Principais{
+        margin-left: -10px;
+        width: 80vw;
+    }
+
+    .perfil{
+        margin-left: -10px;
+        width: 80vw;
+    }
+
+    .boxesInformation{
+        margin-left: -20px;
+    }
 
     .repos {
         display: block;
