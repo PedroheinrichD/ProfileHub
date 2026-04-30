@@ -15,11 +15,6 @@ async function perfilAtivo() {
         let perfil = await responsePerfil.json()// conversão em obj/json
         let repos = await responseRepos.json()// conversão em obj/json
 
-        console.log(perfil);// vendo as propriedades 
-        console.log(repos);// vendo as propriedades 
-
-
-
         // Exibir avatar com bio e nome do perfil buscado
         let avatar = document.createElement('img') // criando elemento img com avatar
         avatar.src = perfil.avatar_url
