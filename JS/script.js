@@ -6,6 +6,7 @@ let bio_Perfil = document.querySelector('#Bio_Perfil')
 let valor_seguidores = document.querySelector('.valor_seguidores')
 let valor_seguindo = document.querySelector('.valor_seguindo')
 let link_perfil = document.querySelector('#link_perfil')
+let repos_Principais = document.querySelector('#repos_Principais')
 
 
 // Valores das boxes
@@ -16,10 +17,6 @@ let box_Seguin_Publico = document.querySelector('.valor_Seguin_Publico')
 
 
 
-// repositorios 
-let repos_Name = document.querySelector('#repos_Name')
-let linguagem = document.querySelector('.linguagem')
-let text_repos = document.querySelector('.text_repos')
 
 
 
