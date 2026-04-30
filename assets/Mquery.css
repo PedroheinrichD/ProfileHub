@@ -40,6 +40,20 @@
 
 }
 
+@media (max-width: 640PX) {
+    .name_Repos_Container a {
+        font-size: 14px;
+    }
+
+    .repos_Information {
+        margin: 0px 15px;
+    }
+
+    .linguagem {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 570PX) {
     .perfil {
         flex-wrap: wrap;
@@ -173,3 +187,22 @@
     }
 }
 
+
+@media (max-width: 380PX) {
+
+    .repos {
+        display: block;
+    }
+
+    .information_stars {
+        margin: 0px -15px;
+    }
+    .icon_Star{
+        top: 2px;
+    }
+
+    .linguagem {
+        font-size: 14px;
+    }
+
+}
