@@ -12,7 +12,7 @@ html {
     border: 1px solid #1D2631;
 }
 
-.mobileICon{
+.mobileICon {
     display: none;
 }
 
@@ -289,7 +289,7 @@ form button {
     border-radius: 15px;
 }
 
-.box2{
+.box2 {
     gap: 8px;
 }
 
@@ -300,7 +300,7 @@ form button {
     color: #8d8d8d;
 }
 
-.box1 .information .information_text{
+.box1 .information .information_text {
     margin-top: 5px;
 }
 
@@ -343,7 +343,7 @@ form button {
 
 /*__________________informações do repositorios_________________*/
 
-#repos_Principais{
+#repos_Principais {
     margin-left: -8px;
     padding: 20px;
     background-color: #171E29;
@@ -353,14 +353,15 @@ form button {
     display: flex;
     flex-direction: column;
 }
-#repos_Principais h3{
+
+#repos_Principais h3 {
     margin: 0px;
     color: #fff;
     font-size: 16px;
 }
 
 
-.repos{
+.repos {
     color: #6B7179;
     display: flex;
     align-items: center;
@@ -368,33 +369,34 @@ form button {
     border-bottom: 2px solid #1D2631;
 }
 
-.repos a{
+.repos a {
     text-decoration: none;
     color: #5C5FE2;
     font-size: 17px;
 }
 
-.repos_Information{
-   margin-right: 60px;
+.repos_Information {
+    margin-right: 60px;
 }
 
-.information_stars{
+.information_stars {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.name_Repos_Container{
+
+.name_Repos_Container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.icon_repos{
+.icon_repos {
     fill: #6B7179;
     height: 24px;
 }
 
-.icon_Star{
+.icon_Star {
     position: relative;
     top: 1px;
     fill: #6B7179;
