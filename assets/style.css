@@ -184,7 +184,10 @@ form button {
 
 #lista_Recentes {
     padding: 0px;
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    gap: 10px;
 }
 
 #lista_Recentes li {

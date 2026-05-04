@@ -16,6 +16,8 @@ let box_Seg_Publico = document.querySelector('.valor_Seg_Publico')
 let box_Seguin_Publico = document.querySelector('.valor_Seguin_Publico')
 
 
+//historico de pesquisa
+let ul =  document.querySelector('#lista_Recentes')
 
 
 
@@ -131,6 +133,13 @@ function exibirRepositorios(repos) {
     }
 }
 
+function historico(inputValue) {
+    let newLi = document.createElement('li')
+    newLi.textContent = inputValue
+
+    ul.append(newLi)
+}
+
 
 // fazendo a requisição da API
 async function buscaPerfil(event) {
@@ -149,6 +158,7 @@ async function buscaPerfil(event) {
 
         exibir(perfil)// passando perfil por parâmetro
         exibirRepositorios(repos)
+        historico(searchInput)
 
 
         // pegando erro caso acontecer
