@@ -52,6 +52,11 @@
     .linguagem {
         font-size: 12px;
     }
+
+    /*__________________informações do modal_________________*/
+    #container_Modal {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 570PX) {
@@ -185,21 +190,36 @@
     .icon_Boxs {
         height: 16px;
     }
+
+    /*__________________informações do modal_________________*/
+    #container_Modal {
+        font-size: 10px;
+    }
+
+    .linguagem {
+        gap: 10px;
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .icon_linguagens {
+        height: 16px;
+    }
 }
 
 
 @media (max-width: 380PX) {
-    #repos_Principais{
+    #repos_Principais {
         margin-left: -10px;
         width: 80vw;
     }
 
-    .perfil{
+    .perfil {
         margin-left: -10px;
         width: 80vw;
     }
 
-    .boxesInformation{
+    .boxesInformation {
         margin-left: -20px;
     }
 
@@ -210,12 +230,25 @@
     .information_stars {
         margin: 0px -15px;
     }
-    .icon_Star{
+
+    .icon_Star {
         top: 2px;
     }
 
     .linguagem {
         font-size: 14px;
     }
+
+    /*__________________informações do modal_________________*/
+    #container_Informations_Modal {
+        display: block;
+    }
+
+    .x_Icon {
+        top: 20px;
+        right: 25px;
+        
+    }
+
 
 }
