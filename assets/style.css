@@ -434,7 +434,8 @@ form button {
     display: flex;
     flex-direction: column;
     background-color: #151C25;
-    padding: 20px;
+    padding: 30px 20px;
+    border-radius: 20px ;
 }
 
 #header_Modal {
@@ -449,6 +450,7 @@ form button {
 }
 
 .x_Icon {
+    cursor: pointer;
     height: 20px;
     fill: #CBCFDA;
 }
