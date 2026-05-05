@@ -495,3 +495,51 @@ form button {
     color: #5C5FE2;
 }
 
+
+/*Parte da direita do modal de informações sobre o projeto */
+
+.modal_right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.listaLingaguens{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.linguagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #1D2631;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.linguagem p{
+    margin: 5px 0px;
+}
+
+.icon_linguagens {
+    height: 20px;
+}
+
+.icon_HTML {
+    fill: #E44D27;
+}
+
+.icon_CSS {
+    fill: #1572B7;
+}
+
+.icon_JS {
+    fill: #EFD81D;
+}
+.icon_GitHub {
+    fill: #5C5FE2;
+}
