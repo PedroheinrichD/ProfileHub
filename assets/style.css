@@ -545,3 +545,18 @@ form button {
 .icon_GitHub {
     fill: #5C5FE2;
 }
+
+
+.containerButton{
+    display: flex;
+    justify-content: end;
+}
+
+#button_Fecha_Modal{
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    padding: 10px 13px;
+    background-color: #212835;
+}
