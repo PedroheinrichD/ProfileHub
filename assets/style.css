@@ -414,15 +414,19 @@ form button {
     position: fixed;
 }
 
-#container_Informations_Modal{
+#container_Informations_Modal {
+    display: flex;
+    gap: 22px;
     padding: 5px 20px;
     border: 1px solid #1D2631;
     border-radius: 15px;
 }
-.modal_left{
+
+.modal_left {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 0px 0px 20px 0px;
 }
 
 #container_Modal {
@@ -459,27 +463,35 @@ form button {
     color: #CBCFDA;
     font-weight: 300;
 }
-.text_box1{
+
+.text_box1 {
     margin-left: 20px;
 }
 
 
 /*boxes de informações do modal*/
-.icon_Modal_boxs{
+.icon_Modal_boxs {
     fill: #5C5FE2;
     height: 16px;
 }
 
-.titulo_boxs_container{
+.titulo_boxs_container {
     align-items: center;
     display: flex;
     gap: 8px;
     color: #fff;
 }
 
-.funcionalidades{
+.funcionalidades {
     margin-left: 20px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 8px;
 }
+
+.link_Documentation {
+    text-decoration: none;
+    color: #5C5FE2;
+}
+
