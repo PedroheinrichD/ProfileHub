@@ -406,12 +406,17 @@ form button {
 
 /*__________________informações do modal_________________*/
 #modal_Position {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 96vw;
-    height: 96vh;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
 }
 
 #container_Informations_Modal {
@@ -430,12 +435,13 @@ form button {
 }
 
 #container_Modal {
+    position: absolute;
     gap: 20px;
     display: flex;
     flex-direction: column;
     background-color: #151C25;
     padding: 30px 20px;
-    border-radius: 20px ;
+    border-radius: 20px;
 }
 
 #header_Modal {
@@ -450,6 +456,8 @@ form button {
 }
 
 .x_Icon {
+    right: 30px;
+    position: absolute;
     cursor: pointer;
     height: 20px;
     fill: #CBCFDA;
@@ -500,19 +508,19 @@ form button {
 
 /*Parte da direita do modal de informações sobre o projeto */
 
-.modal_right{
+.modal_right {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.listaLingaguens{
+.listaLingaguens {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
 
-.linguagem{
+.linguagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -523,7 +531,8 @@ form button {
     font-size: 13px;
     padding: 5px 10px;
 }
-.linguagem p{
+
+.linguagem p {
     margin: 5px 0px;
 }
 
@@ -542,17 +551,18 @@ form button {
 .icon_JS {
     fill: #EFD81D;
 }
+
 .icon_GitHub {
     fill: #5C5FE2;
 }
 
 
-.containerButton{
+.containerButton {
     display: flex;
     justify-content: end;
 }
 
-#button_Fecha_Modal{
+#button_Fecha_Modal {
     cursor: pointer;
     border-radius: 8px;
     color: #fff;
