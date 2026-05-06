@@ -40,7 +40,7 @@
 
 }
 
-@media (max-width: 640PX) {
+@media (max-width: 860PX) {
     .name_Repos_Container a {
         font-size: 14px;
     }
@@ -56,6 +56,8 @@
     /*__________________informações do modal_________________*/
     #container_Modal {
         font-size: 12px;
+        margin: 5px;
+
     }
 }
 
@@ -106,6 +108,25 @@
     }
 
 }
+
+@media (max-width: 544px) {
+
+    /*__________________informações do modal_________________*/
+    #container_Modal {
+        font-size: 10px;
+    }
+
+    .linguagem {
+        gap: 10px;
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .icon_linguagens {
+        height: 16px;
+    }
+}
+
 
 @media (max-width: 460px) {
 
@@ -190,23 +211,67 @@
     .icon_Boxs {
         height: 16px;
     }
+}
+
+@media (max-width: 480PX) {
 
     /*__________________informações do modal_________________*/
-    #container_Modal {
-        font-size: 10px;
+    #container_Informations_Modal {
+        flex-direction: column;
+    }
+
+    .listaLinguagens {
+        gap: 6px;
     }
 
     .linguagem {
-        gap: 10px;
-        font-size: 10px;
-        padding: 5px 10px;
+        font-size: 11px;
+        padding: 4px 8px;
+        gap: 6px;
+        justify-content: start;
     }
 
     .icon_linguagens {
-        height: 16px;
+        height: 14px;
     }
 }
 
+
+@media (max-width: 430PX) {
+
+    /*__________________informações do modal_________________*/
+    #container_Informations_Modal {
+        flex-direction: column;
+    }
+
+    .modal_left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .sobre_Icon {
+        height: 40px;
+    }
+
+    #container_Modal {
+        font-size: 9px;
+    }
+
+    .modal_right {
+        gap: 18px;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 410PX) {
+    .x_Icon {
+        top: 16px;
+        right: 20px;
+    }
+}
 
 @media (max-width: 380PX) {
     #repos_Principais {
@@ -234,21 +299,17 @@
     .icon_Star {
         top: 2px;
     }
+}
 
-    .linguagem {
-        font-size: 14px;
+@media (max-height: 700px) {
+    #modal_Position {
+        align-items: flex-start;
+        overflow-y: auto;
+        padding: 20px 0px;
     }
 
-    /*__________________informações do modal_________________*/
-    #container_Informations_Modal {
-        display: block;
+    #container_Modal {
+        position: relative;
+        margin: 0 auto;
     }
-
-    .x_Icon {
-        top: 20px;
-        right: 25px;
-        
-    }
-
-
 }

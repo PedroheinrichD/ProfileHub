@@ -413,7 +413,6 @@ form button {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
-
     display: none;
     justify-content: center;
     align-items: center;
@@ -443,6 +442,7 @@ form button {
     background-color: #151C25;
     padding: 30px 20px;
     border-radius: 20px;
+    margin: 0px 30px 0px 18px;
 }
 
 #header_Modal {
@@ -515,7 +515,7 @@ form button {
     gap: 40px;
 }
 
-.listaLingaguens {
+.listaLinguagens {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
