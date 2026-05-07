@@ -148,6 +148,12 @@ function historico(inputValue) {
 
 // fazendo a requisição da API
 async function buscaPerfil(event) {
+    let button = document.querySelector('form button')
+
+    button.textContent = 'Buscando'
+    button.disabled = true
+
+
     event.preventDefault()
     let searchInput = document.querySelector('#searchInput').value // valor do campo de busca
     try {
@@ -173,6 +179,10 @@ async function buscaPerfil(event) {
         // pegando erro caso acontecer
     } catch (error) {
         console.log(`Erro cabuloso: ${error}`);
+    }
+    finally{
+        button.textContent = 'Buscar'
+        button.disabled = false
     }
 }
 document.querySelector('.busca').addEventListener('submit', buscaPerfil)
