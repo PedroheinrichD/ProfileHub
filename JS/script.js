@@ -157,16 +157,8 @@ async function buscaPerfil(event) {
     event.preventDefault()
     let searchInput = document.querySelector('#searchInput').value // valor do campo de busca
     try {
-        let responseRepos = await fetch(`https://api.github.com/users/${encodeURI(searchInput)}/starred`, {
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
-        })
-        let responsePerfil = await fetch(`https://api.github.com/users/${encodeURI(searchInput)}`, { // RESPOSTA da API 
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
-        })
+        let responseRepos = await fetch(`https://api.github.com/users/${encodeURI(searchInput)}/starred`, {})
+        let responsePerfil = await fetch(`https://api.github.com/users/${encodeURI(searchInput)}`, {})
         let perfil = await responsePerfil.json()// conversão em obj/json
         let repos = await responseRepos.json()// conversão em obj/json
 

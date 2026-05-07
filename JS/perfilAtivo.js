@@ -3,14 +3,10 @@
 async function perfilAtivo() {
     try {
         let responseRepos = await fetch(`https://api.github.com/users/PedroHeinrichD/starred`, {
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
+           
         }) // repositórios principais
         let responsePerfil = await fetch(`https://api.github.com/users/PedroHeinrichD`, { // RESPOSTA da API 
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
+            
         })
         let perfil = await responsePerfil.json()// conversão em obj/json
         let repos = await responseRepos.json()// conversão em obj/json
