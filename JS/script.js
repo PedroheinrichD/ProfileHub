@@ -25,6 +25,11 @@ let ul =  document.querySelector('#lista_Recentes')
 
 function exibir(perfil) {
 
+    if(perfil.login === undefined){
+        alert('Erro... Usuário não encontrado.')
+        return false
+    }
+
     img_Perfil.innerHTML = ''
     name_Perfil.innerHTML = ''
     user_Perfil.innerHTML = ''
@@ -77,7 +82,7 @@ function exibir(perfil) {
     box_Seg_Publico.innerHTML = perfil.followers
     box_Seguin_Publico.innerHTML = perfil.following
 
-
+    return true
 }
 
 function exibirRepositorios(repos) {
